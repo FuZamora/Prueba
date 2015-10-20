@@ -62,6 +62,7 @@ string demo::getcomida(){
 }
 
 int main(int argc, const char * argv[]) {
+	int z = 0;
     demo a;
     demo b("Juan", "1234");
     demo c("Eliezer","341210011","Armaggedon","Tsuru","Pizza");
@@ -71,5 +72,6 @@ int main(int argc, const char * argv[]) {
     cout<<c.getpelicula()<<endl;
     cout<<c.getcarro()<<endl;
     cout<<c.getcomida()<<endl;
+    scanf("Pausa",&z);
     return 0;
 }
